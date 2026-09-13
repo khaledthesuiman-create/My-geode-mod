@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.25)
+
+project(paging_toolloader)
+
+find_package(geode REQUIRED)
+
+add_geode_mod(
+    paging_toolloader
+    ${MOD_VERSION}
+    src/main.cpp
+)
